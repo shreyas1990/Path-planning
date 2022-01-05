@@ -28,9 +28,15 @@ Step3: Mark the goal location with value of 1.
 
 Step4: MarkAroundGoal(). Mark the neighbors of goal and their neighbors till a neighbor is a boundary or an obstacle, with value 1+the value of that location.
 
+![image](https://user-images.githubusercontent.com/29533107/148208646-347e9b5e-238f-4e70-acf7-849607af45ba.png)
+
 Step5: MarkArroundMarked(). Mark the neighbors of the marked vertices.
 
+![image](https://user-images.githubusercontent.com/29533107/148208776-978de143-0627-4595-81b9-33d76f96d275.png)
+
 Step6: MarkAroundObstacles(). Mark around obstacles, so that no tile remains unmarked.
+
+![image](https://user-images.githubusercontent.com/29533107/148208820-0ea28055-eb3c-4cbe-8b53-cde24dc3dee7.png)
 
 Step7: Beginning from the start location, move the robot to a location with a value one less than the value of current location till goal location is reached (i.e. value of current location is one).
 
